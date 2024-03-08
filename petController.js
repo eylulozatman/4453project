@@ -30,12 +30,7 @@ exports.deletePet = (req, res) => {
 };
 
 exports.create5pets =(req,res) => {
-
-    const { name } = req.body;
-    if (!name) {
-        return res.status(400).json({ error: "Pet name must be provided." });
-    }
-    const newPet = petService.create5pets(name);
+    const newPet = petService.create5pets();
     res.status(201).json(newPet);
 
 }

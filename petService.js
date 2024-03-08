@@ -16,6 +16,10 @@ class PetService {
     deletePet(id) {
         return petRepo.deletePet(id);
     }
+
+    create5pets(){
+        return petRepo.create5pets();
+    }
 }
 
 module.exports = new PetService();

@@ -51,12 +51,12 @@ module.exports = {
         try {
             const connection = await pool.connect();
 
-            // 5 adet pet eklemek için insert into kullan
-            await connection.request().query('INSERT INTO pets (id, name) VALUES (1, \'Max\')');
-            await connection.request().query('INSERT INTO pets (id, name) VALUES (2, \'Buddy\')');
-            await connection.request().query('INSERT INTO pets (id, name) VALUES (3, \'Charlie\')');
-            await connection.request().query('INSERT INTO pets (id, name) VALUES (4, \'Lucy\')');
-            await connection.request().query('INSERT INTO pets (id, name) VALUES (5, \'Molly\')');
+            await connection.request().query('INSERT INTO pets (name) VALUES (\'Max\')');
+            await connection.request().query('INSERT INTO pets (name) VALUES (\'Buddy\')');
+            await connection.request().query('INSERT INTO pets (name) VALUES (\'Charlie\')');
+            await connection.request().query('INSERT INTO pets (name) VALUES (\'Lucy\')');
+            await connection.request().query('INSERT INTO pets (name) VALUES (\'Molly\')');
+            
 
             console.log('5 pets added successfully.');
         } catch (error) {
