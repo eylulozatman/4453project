@@ -33,4 +33,8 @@ exports.create5pets =(req,res) => {
     const newPet = petService.create5pets();
     res.status(201).json(newPet);
 
+};
+exports.sayHello =(req,res) => {
+    print("hellooo");
+
 }
