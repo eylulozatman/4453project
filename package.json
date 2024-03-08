@@ -1,0 +1,15 @@
+{
+  "name": "4453project",
+  "version": "1.0.0",
+  "description": "my new app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eylül özatman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mssql": "^10.0.2"
+  }
+}
