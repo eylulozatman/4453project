@@ -38,3 +38,8 @@ exports.sayHello =(req,res) => {
     print("hellooo");
     print("hello branchi 2.değişiklik")
 }
+exports.sayHello2 =(req,res) => {
+    print("hello2 için new function");
+
+}
+
