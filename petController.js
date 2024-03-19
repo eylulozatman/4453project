@@ -39,7 +39,7 @@ exports.sayHello =(req,res) => {
     print("hello branchi 2.değişiklik")
 }
 exports.sayHello2 =(req,res) => {
-    print("hello2 için new function");
+    print("hello2 için new function - REL ");
 
 }
 
