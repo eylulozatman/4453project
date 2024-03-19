@@ -8,6 +8,7 @@ router.post('/create-new-pet', petController.createPet);
 router.delete('/delete/:id', petController.deletePet);
 router.get('/create-5-pets',petController.create5pets);
 router.get('/helloWorld',petController.sayHello);
+router.get('helloWorld2',petController.sayHello2);
 // for hello 
 // for new feature branch 
 // I accepted both changes
